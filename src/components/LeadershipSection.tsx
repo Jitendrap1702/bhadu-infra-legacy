@@ -1,15 +1,20 @@
 import { User } from "lucide-react";
+import dungarJiImg from "@/assets/dungar-ji-bhadu2.jpeg"
+import dineshImg from "@/assets/dinesh-bhadu2.jpeg"
+
 
 const directors = [
   {
     name: "Dungar Ram Bhadu",
     role: "Founder & Director",
     bio: "With nearly four decades of experience in the construction and infrastructure industry, Dungar Ram Bhadu has been the driving force behind Bhadu Infra's growth and reputation in Western Rajasthan. His deep understanding of infrastructure development, commitment to quality, and strong work ethics have laid the foundation of trust that Bhadu Infra is known for today.",
+    img_url: dungarJiImg,
   },
   {
     name: "Dinesh Bhadu",
     role: "Director",
     bio: "Dinesh Bhadu plays a key role in managing operations, project execution, and strategic growth at Bhadu Infra. With a modern outlook and hands-on involvement in large-scale projects, he ensures efficient delivery, adoption of new technologies, and consistent client satisfaction.",
+    img_url: dineshImg,
   },
 ];
 
@@ -41,8 +46,13 @@ const LeadershipSection = () => {
             >
               <div className="flex flex-col items-center text-center">
                 {/* Avatar */}
-                <div className="w-28 h-28 bg-muted rounded-full flex items-center justify-center mb-6 border-4 border-amber/20">
-                  <User className="w-12 h-12 text-muted-foreground" />
+                <div className="w-78 h-78 flex items-center justify-center mb-6">
+                  {/* <User className="w-12 h-12 text-muted-foreground" /> */}
+                  <img
+                    src={director.img_url}
+                    alt={director.name}
+                    className="w-28 h-28  rounded-lg"
+                  />
                 </div>
 
                 {/* Name & Role */}

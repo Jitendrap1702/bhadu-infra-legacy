@@ -1,6 +1,11 @@
 import { ExternalLink } from "lucide-react";
+// import mallImg from "@/assets/project-mall.jpg";
 import mallImg from "@/assets/project-mall.jpg";
-import hospitalImg from "@/assets/project-hospital.jpg";
+import hospitalImg from "@/assets/project-hospital.jpeg";
+import arihantImg from "@/assets/Project_Arihant_Jodhpur.jpeg"
+import riicoImg from "@/assets/Project_RIICO.png"
+import railwayImg from "@/assets/Project_Railways.jpeg"
+import pwdImg from "@/assets/Project_PWD.jpeg"
 
 const projects = [
   {
@@ -16,25 +21,25 @@ const projects = [
     description: "State-of-the-art multi-specialty hospital construction",
   },
   {
-    image: null,
+    image: arihantImg,
     name: "Arihant Building",
     category: "Commercial",
     description: "Premium commercial building with contemporary design",
   },
   {
-    image: null,
+    image: railwayImg,
     name: "Indian Railway Projects",
     category: "Government",
     description: "Railway infrastructure development across Western Rajasthan",
   },
   {
-    image: null,
+    image: pwdImg,
     name: "PWD Road Projects",
     category: "Infrastructure",
     description: "Major road construction projects for Public Works Department",
   },
   {
-    image: null,
+    image: riicoImg,
     name: "RIICO Jodhpur",
     category: "Industrial",
     description: "Industrial infrastructure development for RIICO projects",

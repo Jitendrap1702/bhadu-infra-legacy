@@ -30,7 +30,7 @@ const Header = () => {
           <div className="flex items-center gap-6 text-primary-foreground/80">
             <span className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-amber" />
-              +91 98XXX XXXXX
+              +91 8888880149
             </span>
             <span className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-amber" />
@@ -48,8 +48,12 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-amber rounded-lg flex items-center justify-center">
-              <span className="font-heading font-bold text-primary text-xl">BI</span>
+            <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+              {/* <span className="font-heading font-bold text-primary text-xl">BI</span> */}
+              <img
+                  src={"Bhadu_Infra_LOGO-removebg-preview.png"}
+                  alt="Logo"
+                />
             </div>
             <div className="hidden sm:block">
               <span className="font-heading font-bold text-xl text-primary-foreground">
@@ -78,7 +82,8 @@ const Header = () => {
           <div className="hidden lg:block">
             <Button
               variant="hero"
-              onClick={() => scrollToSection("#contact")}
+              // onClick={() => scrollToSection("#contact")}
+              onClick={() => window.open(`https://wa.me/918888880149?text=${encodeURIComponent("Hello, \nI would like to get a quotation for my construction project.")}`, '_blank')}
             >
               Get a Quote
             </Button>
@@ -109,7 +114,8 @@ const Header = () => {
               <Button
                 variant="hero"
                 className="mt-4 w-full"
-                onClick={() => scrollToSection("#contact")}
+                // onClick={() => scrollToSection("#contact")}
+                onClick={() => window.open(`https://wa.me/918888880149?text=${"Hey Vikram"}`, '_blank')}
               >
                 Get a Quote
               </Button>

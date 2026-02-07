@@ -53,7 +53,8 @@ const HeroSection = () => {
             <Button
               variant="hero"
               size="xl"
-              onClick={() => scrollToSection("#contact")}
+              // onClick={() => scrollToSection("#contact")}
+              onClick={() => window.open(`https://wa.me/918888880149?text=${encodeURIComponent("Hello, \nI would like to get a quotation for my construction project.")}`, '_blank')}
               className="group"
             >
               Get a Quote

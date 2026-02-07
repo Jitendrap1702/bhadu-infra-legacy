@@ -13,8 +13,12 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 bg-amber rounded-lg flex items-center justify-center">
-                <span className="font-heading font-bold text-primary text-xl">BI</span>
+              <div className="w-12 h-12 rounded-lg flex items-center justify-center">
+                {/* <span className="font-heading font-bold text-primary text-xl">BI</span> */}
+                <img
+                  src={"Bhadu_Infra_LOGO-removebg-preview.png"}
+                  alt="Logo"
+                />
               </div>
               <div>
                 <span className="font-heading font-bold text-xl text-primary-foreground">
@@ -66,7 +70,7 @@ const Footer = () => {
                   bhaduinfra@gmail.com
                 </a>
               </li>
-              <li>+91 98XXX XXXXX</li>
+              <li>+91 8888880149</li>
             </ul>
           </div>
         </div>
