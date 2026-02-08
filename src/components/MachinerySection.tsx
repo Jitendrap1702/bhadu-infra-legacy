@@ -24,11 +24,11 @@ const machinery = [
 const equipmentList = [
   "Excavators",
   "Tippers",
-  "Pokland Machines",
+  "Poclains",
   "Road Rollers",
   "RMC Millers",
-  "Motor Graders",
-  "Wheel Loaders",
+  "Graders",
+  "Loaders",
   "Bulldozers",
 ];
 

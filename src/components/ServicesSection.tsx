@@ -33,12 +33,12 @@ const services = [
     description:
       "Building modern commercial complexes, malls, and office spaces with contemporary architecture and quality.",
   },
-  {
-    icon: Home,
-    title: "Residential Projects",
-    description:
-      "Developing quality residential buildings and housing complexes with attention to comfort and durability.",
-  },
+  // {
+  //   icon: Home,
+  //   title: "Residential Projects",
+  //   description:
+  //     "Developing quality residential buildings and housing complexes with attention to comfort and durability.",
+  // },
   {
     icon: Factory,
     title: "Industrial Projects",
@@ -47,7 +47,7 @@ const services = [
   },
   {
     icon: Landmark,
-    title: "Government & PWD Projects",
+    title: "Government Projects",
     description:
       "Trusted partner for government contracts including PWD, RIICO, and Railway infrastructure projects.",
   },
@@ -68,7 +68,7 @@ const ServicesSection = () => {
           </h2>
           <p className="text-muted-foreground text-lg">
             From earthwork to commercial construction, we offer end-to-end infrastructure 
-            services backed by 39+ years of experience and a commitment to excellence.
+            services backed by 41+ years of experience and a commitment to excellence.
           </p>
         </div>
 

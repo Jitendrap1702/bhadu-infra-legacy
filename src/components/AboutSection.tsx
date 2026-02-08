@@ -19,10 +19,9 @@ const values = [
 ];
 
 const highlights = [
-  "39+ years of construction industry experience",
+  "41+ years of construction industry experience",
   "Trusted by Government & Private sector clients",
-  "Family-run, legacy-driven organization",
-  "Leaders in Western Rajasthan infrastructure",
+  "Legacy-driven organization",
   "State-of-the-art machinery fleet",
   "Government approved contractor",
 ];
@@ -37,15 +36,15 @@ const AboutSection = () => {
             About Us
           </span>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            39 Years of Building
+            41 Years of Building
             <span className="text-amber"> Trust & Excellence</span>
           </h2>
-          <p className="text-muted-foreground text-lg">
+          {/* <p className="text-muted-foreground text-lg">
             For nearly four decades, Bhadu Infra has been the cornerstone of infrastructure 
             development in Western Rajasthan. Our journey from a humble beginning to becoming 
             the region's most trusted construction partner reflects our commitment to quality 
             and reliability.
-          </p>
+          </p> */}
         </div>
 
         {/* Main content */}
@@ -53,10 +52,9 @@ const AboutSection = () => {
           {/* Left - Story */}
           <div className="space-y-6">
             <p className="text-foreground text-lg leading-relaxed">
-              Founded with a vision to transform Western Rajasthan's infrastructure landscape, 
-              Bhadu Infra has grown into a powerhouse of construction excellence. Our expertise 
-              spans earthwork, heavy machinery operations, and comprehensive infrastructure 
-              development.
+              With a vision to redefine Rajasthan’s infrastructure landscape, Bhadu Infra has 
+              built nearly four decades of proven construction excellence. We specialize in 
+              large-scale earthwork, heavy machinery operations, and full-spectrum infrastructure development.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               We take pride in our state-of-the-art machinery fleet and a team of experienced 

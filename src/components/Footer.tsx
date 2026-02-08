@@ -30,13 +30,13 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              Building Western Rajasthan for over 39 years. Trusted infrastructure and 
+              Building Rajasthan for over 41 years. Trusted infrastructure and 
               earthwork experts delivering large-scale construction projects with precision 
               and reliability.
             </p>
             <div className="flex items-center gap-2 text-amber font-semibold">
               <span className="w-8 h-0.5 bg-amber" />
-              39+ Years of Excellence
+              41+ Years of Excellence
             </div>
           </div>
 
@@ -62,7 +62,7 @@ const Footer = () => {
             <h4 className="font-heading font-bold text-lg mb-4">Contact</h4>
             <ul className="space-y-3 text-primary-foreground/70">
               <li>
-                Near AIIMS Jodhpur<br />
+                22, Transport Nagar<br/> 
                 Basni Phase 2, Jodhpur
               </li>
               <li>

@@ -10,7 +10,7 @@ import {
 const reasons = [
   {
     icon: Award,
-    title: "39+ Years Experience",
+    title: "41+ Years Experience",
     description: "Nearly four decades of proven expertise in infrastructure development",
   },
   {
@@ -36,7 +36,7 @@ const reasons = [
   {
     icon: MapPin,
     title: "Regional Leadership",
-    description: "Strong presence and network across Western Rajasthan",
+    description: "Strong presence and network across Rajasthan",
   },
 ];
 

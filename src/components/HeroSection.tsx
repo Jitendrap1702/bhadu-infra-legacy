@@ -32,20 +32,19 @@ const HeroSection = () => {
           <div className="inline-flex items-center gap-2 bg-amber/20 border border-amber/30 rounded-full px-4 py-2 mb-6 animate-fade-in">
             <Award className="w-5 h-5 text-amber" />
             <span className="text-amber font-medium text-sm">
-              39+ Years of Excellence in Western Rajasthan
+              Since 1985
             </span>
           </div>
 
           {/* Heading */}
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-primary-foreground mb-6 leading-tight animate-slide-up">
             Building Western Rajasthan
-            <span className="block text-amber mt-2">For Over 39 Years</span>
+            <span className="block text-amber mt-2">For Over 41 Years</span>
           </h1>
 
           {/* Subheading */}
           <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl animate-slide-up" style={{ animationDelay: "0.2s" }}>
-            Trusted Infrastructure & Earthwork Experts delivering large-scale construction, 
-            excavation and earthwork projects with precision, reliability, and experience.
+            Trusted Infrastructure & Earthwork Experts delivering with precision, reliability, and experience.
           </p>
 
           {/* CTAs */}
@@ -72,7 +71,7 @@ const HeroSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 animate-fade-in" style={{ animationDelay: "0.6s" }}>
             <div className="bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 rounded-xl p-4 text-center">
-              <div className="text-3xl md:text-4xl font-bold text-amber mb-1">39+</div>
+              <div className="text-3xl md:text-4xl font-bold text-amber mb-1">41+</div>
               <div className="text-primary-foreground/70 text-sm">Years Experience</div>
             </div>
             <div className="bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 rounded-xl p-4 text-center">
