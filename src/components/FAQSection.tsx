@@ -9,7 +9,7 @@ const faqs = [
   {
     question: "What areas do you operate in?",
     answer:
-      "Bhadu Infra primarily operates in Western Rajasthan, with our headquarters located near AIIMS Jodhpur in Basni Phase 2. We serve clients across Jodhpur, Barmer, Jaisalmer, Pali, and surrounding districts.",
+      "Bhadu Infra primarily operates in Rajasthan, with our headquarters located near AIIMS Jodhpur in Basni Phase 2. We serve clients across Jodhpur, Barmer, Jaisalmer, Pali, and surrounding districts.",
   },
   {
     question: "What type of projects do you handle?",
@@ -29,7 +29,7 @@ const faqs = [
   {
     question: "What machinery do you provide?",
     answer:
-      "Our fleet includes excavators, tippers, pokland machines, road rollers, RMC millers, motor graders, wheel loaders, and bulldozers. We can provide machinery on hire or as part of complete project execution.",
+      "Our fleet includes excavators, tippers, poclains, road rollers, RMC millers, motor graders, wheel loaders, and bulldozers. We can provide machinery on hire or as part of complete project execution.",
   },
   {
     question: "What is your typical project timeline?",
