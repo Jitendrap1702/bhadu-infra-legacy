@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
+import emailjs  from "emailjs-com";
 
 const ContactSection = () => {
   const { toast } = useToast();
@@ -14,6 +15,25 @@ const ContactSection = () => {
     project: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
+
+//   // EmailJs Service
+//   function sendEmail(e) {
+//   e.preventDefault();
+
+//   emailjs.send(
+//     import.meta.env.VITE_EMAILJS_SERVICE_ID,
+//     import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+//     {
+//       name: e.,
+//       email: 'john@example.com',
+//       message: 'Hello!'
+//     },
+//     import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+//   ).then(
+//     () => alert('Email sent!'),
+//     (err) => alert('Failed: ' + err.text)
+//   );
+// }
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -28,10 +48,25 @@ const ContactSection = () => {
     // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
-    toast({
-      title: "Enquiry Submitted!",
-      description: "We'll get back to you within 24 hours.",
-    });
+    // EmailJs Service
+    emailjs.send(
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+      {
+        name: formData.name,
+        phone: formData.phone,
+        email: formData.email,
+        project: formData.project,
+      },
+
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    ).then(
+      () => toast({
+                  title: "Enquiry Submitted!",
+                  description: "We'll get back to you within 24 hours.",
+            }),
+      (err) => alert('Failed: ' + err.text)
+    );
 
     setFormData({ name: "", phone: "", email: "", project: "" });
     setIsSubmitting(false);
